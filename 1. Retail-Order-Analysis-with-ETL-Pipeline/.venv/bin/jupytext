@@ -1,0 +1,8 @@
+#!/bin/sh
+'''exec' "/workspaces/Pipeline/1. Retail-Order-Analysis-with-ETL-Pipeline/.venv/bin/python" "$0" "$@"
+' '''
+import sys
+from jupytext.cli import jupytext
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(jupytext())
