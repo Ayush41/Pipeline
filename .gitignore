@@ -1,0 +1,8 @@
+
+# Environment files
+.venv/
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
